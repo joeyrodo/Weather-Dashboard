@@ -19,6 +19,26 @@ aside {
 }
 
 main {
-    width: 25%;
+    width: 74%;
     border: 3px solid maroon;
+}
+
+#daily-forecast {
+    border: 3px solid darkcyan
+}
+
+#day-elements {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    margin: auto;
+    border: 2px solid darkgoldenrod;
+
+
+}
+
+#day-elements li {
+    margin: auto;
+    margin-left: 0;
 }
