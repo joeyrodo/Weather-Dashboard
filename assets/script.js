@@ -29,7 +29,7 @@ function submitted() {
 
     function geocodeEnter() {
         console.log(city);
-        var geocodeURL = "http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=" + 1 + "&appid=" + APIKey;
+        var geocodeURL = "https://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=" + 1 + "&appid=" + APIKey;
         fetch(geocodeURL).then((response) => response.json()).then((geocode) => {
             geocodeName = geocode[0].name;
             lat = geocode[0].lat;
@@ -39,7 +39,7 @@ function submitted() {
         });
     }
     function latLonSubmit() {
-        var forecastURL = "http://api.openweathermap.org/data/2.5/forecast?lat=" + lat + "&lon=" + lon + "&appid=" + APIKey;
+        var forecastURL = "https://api.openweathermap.org/data/2.5/forecast?lat=" + lat + "&lon=" + lon + "&appid=" + APIKey;
         fetch(forecastURL).then((response) => response.json()).then((forecast) => {
             cityName = forecast.city.name;
             forecastListIndex = 0;
