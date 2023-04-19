@@ -34,7 +34,6 @@ function submitted() {
             geocodeName = geocode[0].name;
             lat = geocode[0].lat;
             lon = geocode[0].lon;
-            geocodeTest();
             latLonSubmit();
         });
     }
@@ -101,5 +100,4 @@ function submitted() {
         console.log("geocode test successful!");
         console.log(geocodeName, lat, lon);
     }
-    console.log("hi");
 }
