@@ -19,6 +19,25 @@ aside {
     border-radius: 25px;
 }
 
+#history {
+    padding-left: 0%;
+}
+
+#history li {
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    border: 2px solid lavender;
+    border-radius: 25px;
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    list-style-type: none;
+    text-align: center;
+}
+
+#full-history-notice {
+    text-align: center;
+}
 #submit {
     border: 3px solid saddlebrown;
     width: fit-content;
@@ -33,9 +52,18 @@ main {
 #daily-forecast {
     border: 3px solid darkcyan;
     border-radius: 25px;
+    background-color: rgb(255, 225, 0);
 }
 
+#daily-forecast ul {
+    list-style-type: none;
+}
+#today-element{ 
+    width: fit-content;
+
+}
 #day-elements {
+    padding-left: 1%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -43,10 +71,30 @@ main {
     margin: auto;
     border: 2px solid darkgoldenrod;
     border-radius: 25px;
+    background-color: lightblue;
 
 }
 
 #day-elements li {
     margin: auto;
     margin-left: 0;
+    border: 2px solid lavender;
+    border-radius: 25px;
+    background-color: darkblue;
+    color: white;
+}
+
+#day-elements li ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    margin: 15px;
+}
+
+#day-elements li ul li {
+
+    border: 0px solid darkgoldenrod;
+    border-radius: 25px;
+    margin: 7px;
+    
 }
