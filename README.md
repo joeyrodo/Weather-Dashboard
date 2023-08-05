@@ -1,4 +1,4 @@
-# Module-6-Challenge : Weather Dashboard
+# Weather Dashboard
 This is the repository for the Module 6 Challenge of Joseph Rodante in Rutgers Coding Bootcamp
 
 - This application gives details about the weather over a 5 day period of a town or city entered by the user
@@ -7,7 +7,7 @@ This is the repository for the Module 6 Challenge of Joseph Rodante in Rutgers C
 
 ## Installation
 - N/A
-- Link to Application[https://joeyrodo.github.io/Module-6-Challenge/]
+- Link to Application[https://joeyrodo.github.io/Weather-Dashboard/]
 
 ## Usage 
 - Click the text box to enter the name of a city or town.
