@@ -7,7 +7,7 @@ This is the repository for the Module 6 Challenge of Joseph Rodante in Rutgers C
 
 ## Installation
 - N/A
-- Link to Application[https://joeyrodo.github.io/Weather-Dashboard/]
+- [Link to Application](https://joeyrodo.github.io/Weather-Dashboard/)
 
 ## Usage 
 - Click the text box to enter the name of a city or town.
